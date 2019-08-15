@@ -1,0 +1,35 @@
+CREATION D'UNE BASE DE DONNÉES AVEC WORKBENCH ET EXPORTATION VERS PHPMYADMIN
+
+Installez les logiciel Mysql Workbench et WAMP/XAMP/MAMP.
+
+Suivez les étapes suivantes :
+
+1 - Créez une table 'Villes' avec les champs suivants: id, nom
+2 - Créez une table 'Habitants' avec les champs suivants: id, nom, age
+
+3 - Etablissez la relation entre ces deux tables : une ville comprends plusieurs habitants, on a donc une relation 1 à N, donc un à plusieurs.
+
+4 - Générez le script SQL à exporter
+
+5 - Lancement du serveur apache et de PHPMYADMIN
+
+6 - Importation du script sous PHPMYADMIN
+
+//-----------Requête SQL---------------------- (infos : https://sql.sh).
+
+Pour le moment, notre base de données est vide, il s'agit maintenant de peupler notre base.
+
+Dans PHPMYADMIN (onglet SQL), éxécutez les requetes suivantes sur votre base de données
+
+Insérez 2 villes dans votre table 'villes' : Paris et Marseille.
+
+En précisant un nom et âge (+ et - de 18 ans) pour chaque habitants...
+Insérer 5 habitants dans votre table 'habitants' pour la ville de Paris
+Insérer 5 habitants dans votre table 'habitants' pour la ville de Marseille
+
+
+Affichez tous les habitants qui ont moins de 18 ans
+Affichez tous les habitants qui ont plus de 18 ans
+Affichez tous les habitants de Paris
+Affichez tous les habitants de Marseille
+Affichez tous les habitants qui ont plus de 18 ans et qui habitent Marseille
